@@ -38,6 +38,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\styles.css" />
+    <Content Include="doc\examen-su1-av-2.jpg" />
+    <Content Include="doc\examen-su2-av-2.jpg" />
     <Content Include="doc\readme.txt" />
     <Content Include="education.html" />
     <Content Include="favicon.ico" />
