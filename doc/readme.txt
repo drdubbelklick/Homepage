@@ -1,5 +1,5 @@
-09:54 2018-03-20
+2018-04-01
 
-Länken till emailobfuscatorn är http://www.albionresearch.com/misc/obfuscator.php
+The URL of the email obfuscator is https://andrew.hedges.name/experiments/obfuscator/
 
 <EOF>

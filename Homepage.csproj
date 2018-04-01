@@ -34,12 +34,14 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="doc\email-obfuscator-source-code.pdf" />
+    <None Include="doc\Online Email Obfuscator.pdf" />
     <None Include="doc\Textinnehåll nya hemsidan.docx" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\styles.css" />
-    <Content Include="doc\examen-su1-av-2.jpg" />
-    <Content Include="doc\examen-su2-av-2.jpg" />
+    <Content Include="doc\examen-su1.png" />
+    <Content Include="doc\examen-su2.png" />
     <Content Include="doc\readme.txt" />
     <Content Include="education.html" />
     <Content Include="favicon.ico" />
