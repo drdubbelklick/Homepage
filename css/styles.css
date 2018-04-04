@@ -30,41 +30,24 @@
     color: black;
 }
 
+.navbar-inverse
+{
+    background-color: green;
+    color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a
+{
+    color: white;
+}
+
 /* used by index.html to scale the image down */
 #selfie
 {
     width: 200px;
 }
 
-#personal2
-{
-    height: 200px;
-    /*width: 200px;*/
-    background-color: #ff0000;
-    border-radius: 50%;
-    display: inline-block;
-    float : left;
-}
-
-#education2
-{
-    height: 200px;
-    /*width: 200px;*/
-    background-color: #00ff00;
-    border-radius: 50%;
-    display: inline-block;
-    float:left;
-}
-
-#techniques2
-{
-    height: 200px;
-    /*width: 200px;*/
-    background-color: #0000ff;
-    border-radius: 50%;
-    display: inline-block;
-}
-
+/* headers */
 h1,h2,h3,h4,h5,h6
 {
     margin-top: 0.5em;
