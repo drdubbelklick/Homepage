@@ -38,6 +38,7 @@
     <None Include="doc\Online Email Obfuscator.pdf" />
     <None Include="doc\Textinnehåll nya hemsidan.docx" />
     <None Include="README.md" />
+    <None Include="web.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\styles.css" />
