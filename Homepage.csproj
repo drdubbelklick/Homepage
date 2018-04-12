@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="doc\bugs.xlsx" />
     <None Include="doc\email-obfuscator-source-code.pdf" />
     <None Include="doc\Online Email Obfuscator.pdf" />
     <None Include="doc\Textinnehåll nya hemsidan.docx" />
@@ -41,23 +42,43 @@
     <None Include="web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="css\styles.css" />
-    <Content Include="doc\examen-su1.png" />
-    <Content Include="doc\examen-su2.png" />
+    <Content Include="css\styles.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="doc\examen-su1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="doc\examen-su2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="doc\readme.txt" />
     <Content Include="education.html" />
     <Content Include="favicon.ico" />
-    <Content Include="img\background.png" />
-    <Content Include="img\buddha.gif" />
-    <Content Include="img\jodo.gif" />
-    <Content Include="img\LinkedIn.png" />
-    <Content Include="img\thomas.png" />
-    <Content Include="img\tje.gif" />
+    <Content Include="img\background.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\buddha.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\jodo.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\LinkedIn.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\thomas.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\tje.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="index.html" />
     <Content Include="personal.html" />
     <Content Include="techniques.html" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Compile Include="program.cs" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
