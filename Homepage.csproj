@@ -74,6 +74,7 @@
     </Content>
     <Content Include="index.html" />
     <Content Include="personal.html" />
+    <Content Include="robots.txt" />
     <Content Include="sitemap.txt" />
     <Content Include="techniques.html" />
   </ItemGroup>
