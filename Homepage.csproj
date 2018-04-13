@@ -39,9 +39,7 @@
     <None Include="doc\email-obfuscator-source-code.pdf" />
     <None Include="doc\Online Email Obfuscator.pdf" />
     <None Include="doc\Textinnehåll nya hemsidan.docx" />
-    <Content Include="README.md">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    <None Include="README.md" />
     <Content Include="web.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
