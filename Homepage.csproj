@@ -48,8 +48,12 @@
     <Content Include="css\styles.css">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <None Include="doc\examen-su1.png" />
-    <None Include="doc\examen-su2.png" />
+    <Content Include="doc\examen-su1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="doc\examen-su2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <None Include="doc\readme.txt" />
     <Content Include="education.html">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
