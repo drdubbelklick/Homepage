@@ -34,29 +34,34 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="cleanup.cmd" />
     <None Include="doc\bugs.xlsx" />
     <None Include="doc\email-obfuscator-source-code.pdf" />
     <None Include="doc\Online Email Obfuscator.pdf" />
     <None Include="doc\Textinnehåll nya hemsidan.docx" />
-    <None Include="README.md" />
-    <None Include="web.config">
+    <Content Include="README.md">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    </Content>
+    <Content Include="web.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\styles.css">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="doc\examen-su1.png" />
-    <Content Include="doc\examen-su2.png" />
-    <Content Include="doc\readme.txt" />
+    <None Include="doc\examen-su1.png" />
+    <None Include="doc\examen-su2.png" />
+    <None Include="doc\readme.txt" />
     <Content Include="education.html">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="favicon.ico">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="google28e6f9cc294aaa01.html" />
+    <Content Include="google28e6f9cc294aaa01.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="img\background.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -95,6 +100,9 @@
     <Compile Include="program.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>$(SolutionDir)cleanup.cmd $(TargetDir)</PostBuildEvent>
+  </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
