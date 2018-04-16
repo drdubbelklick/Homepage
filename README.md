@@ -1,3 +1,3 @@
 # Homepage
-This is my new homepage. It is mobile-aware and is undergoing development.
+This is my new homepage. It is mobile-aware and is currently in Alpha state.
 
